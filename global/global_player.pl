@@ -60,7 +60,6 @@ sub EVENT_COMBINE_SUCCESS {
         $client->Message(1,"Success");
     }
 }
-
 sub EVENT_CONNECT {
     # the main key is the ID of the AA
     # the first set is the age required in seconds
